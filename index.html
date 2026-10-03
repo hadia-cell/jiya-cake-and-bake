@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jiya Cake and Bake | Fresh & Custom Cakes</title>
+<meta name="description" content="Freshly baked cakes made with love and customized for every occasion.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Great+Vibes&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a href="#/" class="logo" aria-label="Jiya Cake and Bake home"><b>Jiya</b><span>Cake and Bake</span></a>
+  <nav aria-label="Main"><a href="#/">Home</a><a href="#/shop">Shop Cakes</a><a href="#/custom">Custom Cakes</a><a href="#/about">About Us</a><a href="#/contact">Contact</a></nav>
+  <form id="hsearch" role="search"><label class="sr" for="hq">Search cakes</label><input id="hq" placeholder="Search cakes"></form>
+  <a href="#/cart" class="cartlink" aria-label="Cart">🛒<span id="count">0</span></a>
+</header>
+<div class="layout">
+  <main id="app" tabindex="-1"></main>
+  <section id="chat" aria-label="Jiya assistant">
+    <div class="chead"><div><b>Jiya Assistant</b><small>Your Cake &amp; Bake Friend</small></div><button id="cclose" aria-label="Close chat">✕</button></div>
+    <div id="clog" aria-live="polite"></div>
+    <form id="cform"><label class="sr" for="cin">Type your message</label><input id="cin" placeholder="Type your message..." maxlength="200" autocomplete="off"><button aria-label="Send">➤</button></form>
+    <p class="cnote">Powered by AI · Jiya Cake and Bake</p>
+  </section>
+</div>
+<button id="copen" aria-label="Open chat">💬</button>
+<footer>
+  <p class="script">Jiya Cake and Bake ♡ Sweetness in Every Bite</p>
+  <p id="finfo"></p>
+</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
